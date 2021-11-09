@@ -1,0 +1,43 @@
+.background{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.6)),  url("./istockphoto-1285822177-170667a.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.table{
+
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-weight: 700;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 30px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+    opacity: 0.4;
+    color:#ff0101;
+  }
+  tr:nth-child(odd){
+      color: whitesmoke;
+  }
+  .footer{
+      border-top-style: solid;
+      border-top-color: skyblue;
+      background: rgb(0 0 0 /46%);
+      font-family: 'Pacifico', cursive;
+      height: 6vh;
+  }
+  .r1{
+      font-weight: 800;
+      text-align: right;
+      margin: -45px 0px 0px 0px;
+  }
+  .r2{
+      text-align: right;
+  }
